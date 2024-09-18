@@ -14,7 +14,7 @@ steps:
 
 # Paso para instalar distutils y dependencias
 - script: |
-    udo apt-get update
+    sudo apt-get update
     sudo apt-get install -y python3-distutils
     python -m pip install --upgrade pip setuptools wheel
     pip install -r requirements.txt
